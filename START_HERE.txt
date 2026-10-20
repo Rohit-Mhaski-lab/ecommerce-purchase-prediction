@@ -1,0 +1,20 @@
+E-COMMERCE PURCHASE PREDICTION — QUICK START
+
+1. Extract this ZIP.
+2. Open the extracted ecommerce_purchase_prediction_project folder in VS Code.
+3. Open Terminal -> New Terminal.
+4. Create and activate a virtual environment:
+   python -m venv .venv
+   .venv\Scripts\activate
+5. Install packages:
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+6. The ZIP includes a trained model and sample results. Start the UI:
+   streamlit run app.py
+7. To rerun cleaning, hyperparameter tuning and evaluation:
+   python train.py
+   Then restart or refresh the Streamlit app.
+
+Exactly four models are compared: Logistic Regression, KNN, Decision Tree, Random Forest.
+Training may take a few minutes. Keep the terminal running while you use the app.
+See README.md and REPORT_GUIDE.md for details.
